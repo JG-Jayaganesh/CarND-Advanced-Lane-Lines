@@ -53,7 +53,7 @@ You're reading it!
 
 #### 1. Briefly state how you computed the camera matrix and distortion coefficients. Provide an example of a distortion corrected calibration image.
 
-The code for this step is contained in the 3rd and 4th code cell of the IPython notebook located in "advanced_lane_lines.ipynb".  
+The code for this step is contained in section 'Calibrate camera' of the IPython notebook located in "advanced_lane_lines.ipynb".  
 
 I start by preparing "object points", which will be the (x, y, z) coordinates of the chessboard corners in the world. Here I am assuming the chessboard is fixed on the (x, y) plane at z=0, such that the object points are the same for each calibration image.  Thus, `objp` is just a replicated array of coordinates, and `objpoints` will be appended with a copy of it every time I successfully detect all chessboard corners in a test image.  `imgpoints` will be appended with the (x, y) pixel position of each of the corners in the image plane with each successful chessboard detection.  
 
@@ -74,11 +74,11 @@ I used a combination of color and gradient thresholds to generate a binary image
 
 ##### Gradient Thresholds
 
-Combined sobel, magnitude and direction of the gradient step (described the same cell 6, 7, and 8 in advanced_lane_lines.ipynb).
+Combined sobel, magnitude and direction of the gradient step (described the same in function 'get_threshold').
 
 ##### Color Transform
 
-Combined red, green and saturation images (described the same cell 52 in advanced_lane_lines.ipynb) 
+Combined red, green and saturation images (described the same in function 'get_threshold'). 
 
 ![alt text][image9]
 ![alt text][image10]
@@ -134,4 +134,6 @@ Here's a [link to my video result](./project_video_output.mp4) (./challenge_vide
 
 #### 1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
 
-Here I'll talk about the approach I took, what techniques I used, what worked and why, where the pipeline might fail and how I might improve it if I were going to pursue this project further.  
+Identifing lane lines was difficult, I had to vary threshold under different conditions. Finally combination of color and gradient would produce decent result.
+
+My solution was not perfectly fit for challehging video, it because of sharp curves found in the lanes.
