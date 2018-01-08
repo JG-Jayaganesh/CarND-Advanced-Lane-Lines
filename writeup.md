@@ -25,7 +25,6 @@ The goals / steps of this project are the following:
 [image4]: ./examples/warped_straight_lines.jpg "Warp Example"
 [image5]: ./examples/color_fit_lines.jpg "Fit Visual"
 [image6]: ./examples/example_output.jpg "Output"
-[video1]: ./project_video.mp4 "Video"
 [image7]: ./examples/undistorted_image.png "Undistorted Image"
 [image8]: ./examples/thresholded_image.png "Thresholded Image"
 [image9]: ./examples/combined_image01.png "Combined Image"
@@ -126,7 +125,8 @@ I implemented this step in section 'Final pipeline'
 
 #### 1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!).
 
-Here's a [link to my video result](./project_video_output.mp4) (./challenge_video_output.mp4)
+Here's a [link to project video result](./project_video_output.mp4)
+Here's a [link to challenge video result](./challenge_video_output.mp4)
 
 ---
 
