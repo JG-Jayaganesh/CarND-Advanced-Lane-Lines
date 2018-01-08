@@ -125,8 +125,7 @@ I implemented this step in section 'Final pipeline'
 
 #### 1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!).
 
-Here's a [link to project video result](./project_video_output.mp4)
-Here's a [link to challenge video result](./challenge_video_output.mp4)
+Here's a [link to project video result](./project_video_output.mp4) and [link to challenge video result](./challenge_video_output.mp4)
 
 ---
 
